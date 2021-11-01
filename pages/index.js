@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
@@ -17,8 +18,10 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{" "}
-          <code className={styles.code}>pages/index.js</code>
+          Get started by navigating to{" "}
+          <span className={styles.link}>
+            <Link href="/list">List</Link>
+          </span>
         </p>
 
         <div className={styles.grid}>

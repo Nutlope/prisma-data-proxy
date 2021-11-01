@@ -119,3 +119,15 @@
     flex-direction: column;
   }
 }
+
+.link {
+  background-color: antiquewhite;
+  padding: 7px;
+  color: black;
+  opacity: 80%;
+}
+
+.link:hover {
+  color: darkolivegreen;
+  background-color: whitesmoke;
+}

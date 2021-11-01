@@ -1,0 +1,15 @@
+.listItem {
+  margin: 4px;
+}
+
+.heading {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+.subheading {
+  text-align: center;
+  color: purple;
+  text-decoration: underline;
+}
