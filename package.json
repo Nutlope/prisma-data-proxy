@@ -1,5 +1,5 @@
 {
-  "name": "toy",
+  "name": "contactz",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chakra-ui/react": "^1.6.10",
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
     "@prisma/client": "^3.3.0",
