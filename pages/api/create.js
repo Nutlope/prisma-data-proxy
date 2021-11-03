@@ -2,12 +2,12 @@ import prisma from "../../lib/prisma";
 
 // POST /api/post
 export default async function handle(req, res) {
-  const { fname, lname, avatar, email } = req.body;
+  const { firstName, lastName, avatar, email } = req.body;
 
   const result = await prisma.user.create({
     data: {
-      firstName: fname,
-      lastName: lname,
+      firstName: firstName,
+      lastName: lastName,
       avatar: avatar,
       email: email,
     },
