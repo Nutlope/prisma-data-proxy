@@ -1,6 +1,6 @@
 .container {
-  border: 1px solid grey;
-  border-radius: 5%;
+  border: 1px solid lightgray;
+  border-radius: 15px;
   margin: 4px;
   padding: 6px;
   display: flex;
@@ -8,6 +8,7 @@
 }
 
 .image {
+  margin: 0px 3px 0px 10px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -15,4 +16,13 @@
 
 .name {
   margin: 10px;
+  /* color: #8973db; */
+  /* color: #0097ff; */
+  color: #0f7ef1;
+}
+
+.email {
+  font-size: 11px;
+  color: grey;
+  margin-top: 5px;
 }

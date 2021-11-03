@@ -4,6 +4,36 @@
   padding: 15px;
 }
 
-.section {
-  flex: 50%;
+.section1 {
+  flex-grow: 1; /* default 0 */
+}
+
+.section2 {
+  flex-grow: 3;
+}
+
+.formField {
+  height: 46px;
+  padding: 0 16px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  font-family: "Rubik", sans-serif;
+  outline: 0;
+  transition: 0.2s;
+  margin-top: 20px;
+}
+
+.formField:focus {
+  border-color: #0f7ef1;
+}
+
+.logo {
+  margin-left: 22px;
+  text-decoration: underline;
+  text-decoration-color: #0f7ef1;
+  text-decoration-thickness: 4px;
+}
+
+.hr {
+  border-top: 1px solid lightgrey;
 }

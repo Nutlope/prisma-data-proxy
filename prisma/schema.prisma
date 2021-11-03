@@ -15,6 +15,7 @@ model User {
     firstName String
     lastName  String
     avatar    String
+    email     String
     //   createdAt     DateTime  @default(now()) @map(name: "created_at")
     //   updatedAt     DateTime  @updatedAt @map(name: "updated_at")
 
