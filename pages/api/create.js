@@ -1,6 +1,5 @@
 import prisma from "../../lib/prisma";
 
-// POST /api/post
 export default async function handle(req, res) {
   const { firstName, lastName, avatar, email } = req.body;
 
