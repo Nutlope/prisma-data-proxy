@@ -92,7 +92,7 @@ export default function Home() {
         </div>
         <div className={styles.right}>
           <h1>Contacts</h1>
-          {!data && "You have no contacts."}
+          {(!data || data.length == 0) && "You have no contacts."}
           {error && `Error: ${error}`}
           {data &&
             data.map(({ firstName, lastName, avatar, email, id }) => (
