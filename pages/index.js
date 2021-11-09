@@ -3,6 +3,7 @@ import { useState } from "react";
 import styles from "../styles/Home.module.css";
 import User from "../components/User";
 import Head from "next/head";
+import toast, { Toaster } from "react-hot-toast";
 
 export default function Home() {
   const [firstName, setFirstName] = useState("");
@@ -25,6 +26,7 @@ export default function Home() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
       });
+      toast.success("Contact Added");
     } catch (error) {
       console.error(error);
     }
@@ -88,6 +90,7 @@ export default function Home() {
               className="submit-btn"
               onClick={resetInputFields}
             />
+            <Toaster />
           </form>
         </div>
         <div className={styles.right}>
