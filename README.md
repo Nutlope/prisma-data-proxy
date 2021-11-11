@@ -1,4 +1,4 @@
-# Prisma and Next.js Demo
+# Prisma Data Proxy and Next.js Demo
 
 This is a Prisma and Next.js demo presented at Prisma Serverless Conf. To get this working, make sure to:
 
