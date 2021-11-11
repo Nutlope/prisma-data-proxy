@@ -3,5 +3,7 @@
 This is a Prisma and Next.js demo presented at React Global 2021. To get this working, make sure to:
 
 1. Run `npm install`
-2. Create a postgres database on Heroku or Railway
-3. Change the name of the `.env.example` to `.env` add your database URL in the `DATABASE_URL` env file.
+2. Create a postgres database on [Railway](https://railway.app/)
+3. Change the name of the `.env.example` to `.env`
+4. Add your database URL from Step #2 to the `DATABASE_URL` variable in your `.env` file
+5. Deploy on [Vercel](https://vercel.com/)
