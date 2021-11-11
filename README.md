@@ -1,6 +1,6 @@
 # Prisma and Next.js Demo
 
-This is a Prisma and Next.js demo presented at React Global 2021. To get this working, make sure to:
+This is a Prisma and Next.js demo presented at Prisma Serverless Conf. To get this working, make sure to:
 
 1. Run `npm install`
 2. Create a postgres database on [Railway](https://railway.app/)
