@@ -6,4 +6,4 @@ This is a Prisma and Next.js demo presented at Prisma Serverless Conf. To get th
 2. Create a postgres database on [Railway](https://railway.app/)
 3. Change the name of the `.env.example` to `.env`
 4. Add your database URL from Step #2 to the `DATABASE_URL` variable in your `.env` file
-5. Deploy on [Vercel](https://vercel.com/)
+5. Deploy on [Vercel](https://vercel.com/).
